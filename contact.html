@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/accueil.css">
+	<link rel="stylesheet" type="text/css" href="css/footers.css">
+</head>
+<body>
+	<!-- navbar -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="contnav">
+					<ul class="placenav">
+						<li class="blocknav"> <a class="navtexte" href="accueil.html" style="text-decoration: none;">Acceuil</a></li>
+						<li class="blocknav"><a class="navtexte" href="blog.html" style="text-decoration: none;">Blog</a></li>
+						<li class="blocknav"><a class="navtexte" href="dashboard.html" style="text-decoration: none;">Dashboard</a></li>
+						<li class="blocknav active"><a class="navtexte" href="contact.html" style="text-decoration: none;">Contact</a></li>
+						<li class="blocknav compte">
+							Connexion
+							<div class="boxcompte">
+								<ul class="conteneurcompte">
+									<li class="acte un">créer compte</li>
+									<li class="acte deux">Se connecter</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- corps du site -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2" style="background-color: khaki">
+				<h2>tous les articles:</h2>
+				<ul class="listeArticle">
+					<li class="titreArticle">Les enjeux et défis de l’entrepreneuriat à Madagascar en 2019-2020</li>
+					<li class="titreArticle">Entreprendre : ces business pas très glamour... mais rentables !</li>
+					<li class="titreArticle">Un trimestre brillant pour la tech… et après?</li>
+					<li class="titreArticle">Google Play Store : les développeurs bientôt tenus d'expliquer l'usage des données dans leurs applications</li>
+					<li class="titreArticle">BENOIT LAM, DU POKER À L'ENTREPRENEURIAT</li>
+				</ul>
+			</div>
+			<!-- article centre -->
+			<div class="col-sm-8 milieu">
+				
+  				<h1>contactez-nous:</h1>
+  				<form>
+
+  					<div class="formabout gauche">
+  						<label class="etiquette">Nom</label><br>
+  						<input class="place" type="text" name="nom" placeholder="Nom...">
+  					</div>
+
+  					<div class="formabout droite">
+  						<label class="etiquette">Prenom</label><br>
+  						<input class="place" type="text" name="Prenom" placeholder="Prenom...">
+  					</div>
+
+  					<div class="formabout gauche">
+  						<label class="etiquette">Adresse</label><br>
+  						<input class="place" type="text" name="Adresse" placeholder="Adresse...">
+  					</div>
+
+  					<div class="formabout droite">
+  						<label class="etiquette">Email</label><br>
+  						<input class="place" type="mail" name="Email" placeholder="Email...">
+  					</div><br><br><br>
+
+  					<div class="remember">
+  						<input type="radio" name="remember">
+  						<label class="etiquette_remember">Remember me</label>
+  					</div><br>
+
+  					<button class="boutton" type="submit">Submit</button>
+  					
+  				</form>
+			</div>
+			<!-- formulaire droite -->
+			<div class="col-sm-2" style="background-color: palegoldenrod; box-shadow: -15px 10px 10px grey;">
+				<h2>Formulaire</h2>
+				<form>
+					<div>
+						<label>Article n°</label>
+						<input class="zone num" type="text" name="Numero" disabled="">
+					</div>
+					<ul>
+						<li>
+							<div>
+								<label>Nom et Prenom</label><br>
+								<input class="zone" type="text" name="Nom_et_Prenom" placeholder="Votre Nom complet">
+							</div>
+						</li>
+						<li>
+							<div>
+								<label>Date de l'article</label><br>
+								<input class="zone" type="text" name="Date" placeholder="jour/mois/année">
+							</div>
+						</li>
+						<li>
+							<div>
+								<label>Votre article</label><br>
+								<textarea class="zone" name="article" placeholder="Quoi de neuf?"></textarea>
+							</div>
+						</li>
+						<li>
+							<div>
+								<label>Mots de passe</label><br>
+								<input class="zone" type="password"  name="mots_de_passe" placeholder="votre mots de passe"></input>
+							</div>
+						</li>
+					</ul>
+					<button class="Soumettre" type="submit" name="save">Soumettre</button>
+				</form>
+			</div>	
+		</div>
+	</div>
+
+	<!-- footers -->
+	<div class="foot">
+		<p class="textfoot">&#169; Made <sub>BY</sub> ME</p>
+	</div>
+</body>
+</html>

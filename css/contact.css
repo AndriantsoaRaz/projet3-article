@@ -1,0 +1,51 @@
+.etiquette{
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline blink;
+	font-size: 25px;
+	position: relative;
+
+}
+.place{
+	width: 40%;
+	height: 40px;
+	background-color: aquamarine
+}
+.formabout{
+	margin-top: 50px
+}
+.boutton{
+	background-color: limegreen;
+	color: blanchedalmond;
+	font-weight: bold;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px black ;
+	height: 50px;
+	width: 150px;
+	font-size: 30px;
+	position: relative;
+	left: 40%
+
+}
+.remember{
+	position: relative;
+	left: 40%;
+	
+}
+.etiquette_remember{
+	text-decoration: underline;
+	font-weight: bold;
+	color: white;
+	
+}
+.gauche{
+	left: 12px;
+	position: relative;
+}
+.droite{
+	left: 250px;
+	position: relative;
+}
+.milieu{
+	background-image: linear-gradient(to bottom right, white, black)
+}

@@ -1,0 +1,11 @@
+.foot{
+	position: relative;
+	background-color: cadetblue;
+	padding: 2px 0px;
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+	letter-spacing: 5px;
+	color: white;
+	margin-top: 5px
+}

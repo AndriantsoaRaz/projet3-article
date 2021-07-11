@@ -1,0 +1,92 @@
+
+ul.placenav{
+	background-color: cadetblue;
+	box-sizing: border-box;
+	
+}
+
+li.blocknav{
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+	color: white
+}
+a.navtexte{
+	color: white;
+	font-weight: bold;
+	text-decoration-style: none;
+	padding: 10px
+}
+a.navtexte:hover{
+	text-decoration-style: none;
+}
+.compte{
+	margin-left: 100px
+}
+.conteneurcompte{
+	background-color: orange;
+	padding-left:7px;
+	padding-right: 7px
+}
+.boxcompte{
+	display: none;
+    position: relative;
+    top: 48px;
+    z-index: 1;
+    right: -110px;
+    margin-left: -112px;
+    margin-top: -29px;
+    cursor: pointer;
+}
+.acte{
+	list-style: none;
+	color: white;
+	font-weight: bold;
+}
+.acte:hover{
+	color: lightgreen
+}
+.compte:hover .boxcompte{
+	display: inline-block;
+}
+.active {
+	background-color: palegreen
+}
+.blocknav:hover {
+	background-color: aliceblue
+}
+li.titreArticle{
+	margin-top: 14px;
+	cursor: pointer;
+	width: 122px;
+	word-break: break-word
+}
+.titreArticle:hover{
+	background-color: white
+}
+.im1{
+	width: 485px;
+    height: 318px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 10px;
+}
+.im2{
+	margin-left: 65px
+}
+.im3{
+	float: left;
+	margin-right: 12px
+}
+.info{
+	color: grey;
+	opacity: 40%
+}
+.zone{
+	width: 100%
+}
+.num{
+	width: 100px
+}
+.Soumettre{
+	margin-left: 30%
+}
